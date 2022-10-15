@@ -1,0 +1,196 @@
+@media all and (max-width: 1150px){
+    .bg-desc{
+        width: 78% !important;
+        left: 11% !important;
+    }
+}
+
+@media all and (max-width: 920px){
+    .bg-desc{
+        width: 86% !important;
+        left: 7% !important;
+        top: 58% !important;
+    }
+    .contacts{
+        width: 50%;
+        margin-left: 27%;
+    }
+     .contact{
+        width: 35%;
+    } 
+    #wa{
+        width: 55%;
+    }
+    
+    .navbar-nav{
+        flex-direction: row !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+    }
+
+    .dropdown-menu{
+        background-color: rgb(24, 54, 116);
+    }
+
+    .dropdown-item{
+        color: rgb(187, 187, 187);
+    }
+}
+
+@media all and (max-width: 769px){
+    .home{
+        margin-top: 17%;
+    }
+
+    .desk-h4{
+        font-size: 20px !important;
+    }
+
+    .desc-p{
+        font-size: 12px !important;
+    }
+
+    .desc-btn{
+        font-size: 12px !important;
+    }
+}
+
+@media all and (max-width: 541px){
+    .nav-item{
+        font-size: 12px;
+    }
+
+    .nav-item>a{
+        font-size: 17px;
+    }
+
+    .navbar-brand>img{
+        width: 18vw;
+        height: 11vw;
+    }
+
+    .home{
+        margin-top: 20%;
+        margin-bottom: 14%;
+    }
+
+    .bg-desc{
+        top: 72% !important;
+    }
+
+    .desk-h4{
+        font-size: 18px !important;
+    }
+
+    .desc-p{
+        font-size: 10px !important;
+    }
+
+    .desc-btn{
+        width: 35%;
+        font-size: 10px !important;
+        top: 68% !important;
+    }
+
+    .dush_cards{
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+
+    .card{
+        width: 42vw !important;
+        /* margin-left: 10%; */
+        margin-bottom: 13%;
+    }
+
+    .card-img-top{
+        height: 39vw;
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .card-text{
+        font-size: 13px;
+    }
+
+    .carousel-item>img {
+        width: 53vw;
+        height: 52vw;
+    }
+
+    .d-none{
+        display: block !important;
+    }
+
+    .d-none>h5{
+        font-size: 18px !important;
+    }
+
+    .d-none>p{
+        display: none;
+    }
+
+    .carousel{
+        margin-bottom: 13%;
+    }
+}
+
+@media all and (max-width: 415px){
+    .navbar-toggler-icon{
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .nav-item>a {
+        font-size: 10px;
+    }
+
+    .d-none>h5 {
+        font-size: 14px !important;
+    }
+
+    .desc-btn {
+        display: none;
+    }
+
+    .desk-h4 {
+        font-size: 16px !important;
+    }
+}
+
+@media all and (max-width: 361px){
+    .card{
+        width: 48vw !important;
+    }
+    .card-img-top {
+        height: 48vw;
+    }    
+}
+
+@media all and (max-width: 369px){
+    .desk-h4 {
+        font-size: 14px !important;
+    }
+
+    .desc-p {
+        font-size: 8px !important;
+    }
+}
+
+@media all and (max-width: 320px){
+    .home{
+        margin-top: 22% !important;
+    }
+
+    .desk-h4 {
+        font-size: 12px !important;
+    }
+
+    .d-none>h5 {
+        font-size: 11px !important;
+    }
+    
+    
+}
